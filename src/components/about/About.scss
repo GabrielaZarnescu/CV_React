@@ -1,3 +1,56 @@
+@import '../../global.scss';
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,800;0,900;1,400;1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@500&display=swap');
 .about {
     background-color: #f9c0c0;
+    display: flex;
+    .left{
+        flex:0.4;
+        overflow: hidden;
+        .imgContainer{
+            width: 500px;
+            height: 500px;
+            align-items: flex-end;
+            float:right;
+            justify-content: center;
+            display: flex;
+            img{
+                height: 90%;
+                
+                
+            }
+        }
+    }
+    .right{
+        flex:0.6;
+        position: relative;
+        .wrapper{
+            //font-family: "Satisfy",cursive !important;
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+                color:#334443;
+                font-family: "Crimson Pro",cursive !important;
+            }
+            h2{
+                font-size: 35px;
+                font-family: "Satisfy",cursive !important;
+            }
+            h3{
+                font-size: 25px;
+                font-family: "Satisfy",cursive !important;
+            }
+            
+        }
+        
+    }
 }

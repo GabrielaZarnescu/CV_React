@@ -1,3 +1,25 @@
 .projects{
     background-color: #ccf6c8;
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .TouchAppIcon{
+                color:black;
+            }
+            h1{
+                font-size: 50px;
+                margin: 10px 0;
+                color:#334443;
+                font-family: "Satisfy",cursive !important;
+            }
+            h2{
+                font-size: 35px;
+                font-family: "Crimson Pro",cursive !important;
+            }
+            span{
+                font-size: 20px;
+                color: #7d7e60;
+                font-family: "Crimson Pro",cursive !important;
+            }
 }

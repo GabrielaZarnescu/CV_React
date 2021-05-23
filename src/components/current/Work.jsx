@@ -6,7 +6,7 @@ export default function Work() {
     return (
         <div className="work" id="work">
             <div className="left">
-                <h2> Professional Experience</h2>
+                <h2> Work Experience</h2>
                 <br/>
                 <ul>
                     <li>
@@ -22,6 +22,10 @@ export default function Work() {
 
             </div>
             <div className="right">
+                <br/><br/>
+                <div className="imgCont">
+                    <img src="assets/wapp.jpeg"/>
+                </div>
             </div>
         </div>
     )

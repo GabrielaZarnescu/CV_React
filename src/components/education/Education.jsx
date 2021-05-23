@@ -1,5 +1,7 @@
 import React from 'react'
 import './Education.scss'
+import CheckCircleIcon from '@material-ui/icons/CheckCircle';
+import { CheckOutlined } from '@material-ui/icons';
 export default function Education() {
     return (
         <div className="education" id="education">
@@ -18,6 +20,15 @@ export default function Education() {
                     <span>2014-2018 - Otelu Rosu, Romania</span>
                     <h2>Baccalaureate Diploma - "Liceul Bănățean" </h2>
                 </li>
+            </ul>
+            <br/>
+            <h1>Digital skills</h1>
+            <ul className="skills">
+                
+                <li><CheckOutlined/>JavaScript, SCCS, HTML </li>
+                <li><CheckOutlined/>Java</li>
+                <li><CheckOutlined/>MERN Stack</li>
+                <li><CheckOutlined/>C,C++</li>
             </ul>
         </div>
     )

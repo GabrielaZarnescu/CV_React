@@ -18,7 +18,7 @@ export default function About() {
                 <br/>
                 <br/>
                 <div className="imgContainer">
-                    <img src="assets/about.jpeg" rounded/>
+                    <img src="assets/about.jpeg" />
                 </div>
             </div>
             <div className="right">
